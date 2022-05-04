@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #c9e4ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.konec.first_windowCon">
+    <children>
+        <AnchorPane prefHeight="48.0" prefWidth="720.0" style="-fx-background-color: #8498c2;">
+            <children>
+                <Text fill="#ff7474" layoutX="188.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIVE MINUTES">
+                    <font>
+                        <Font name="Arial Rounded MT Bold" size="48.0" />
+                    </font>
+                </Text>
+            </children></AnchorPane>
+        <Text fill="#fff75c" layoutX="210.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WHAT DO YOU WANT?">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="27.0" />
+            </font>
+        </Text>
+        <AnchorPane layoutX="42.0" layoutY="167.0" prefHeight="73.0" prefWidth="636.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+            <children>
+                <AnchorPane layoutX="291.0" layoutY="18.0" opacity="0.6" prefHeight="42.0" prefWidth="148.0" style="-fx-background-color: fff75c; -fx-background-radius: 50;" />
+                <Text fill="#fff75c" layoutX="64.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FULL-BODY">
+                    <font>
+                        <Font name="Arial Rounded MT Bold" size="27.0" />
+                    </font>
+                </Text>
+                <Button fx:id="enterfullbody" layoutX="463.0" layoutY="9.0" mnemonicParsing="false" onAction="#enterfullbody" prefHeight="56.0" prefWidth="140.0" style="-fx-background-radius: 50; -fx-background-color: #977ff0;" text="ENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Button>
+                <Text fill="#6862d0" layoutX="313.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 minutes">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="42.0" layoutY="357.0" prefHeight="73.0" prefWidth="636.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+            <children>
+                <AnchorPane layoutX="296.0" layoutY="17.0" opacity="0.6" prefHeight="42.0" prefWidth="148.0" style="-fx-background-color: fff75c; -fx-background-radius: 50;" />
+                <Text fill="#fff75c" layoutX="74.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEGS">
+                    <font>
+                        <Font name="Arial Rounded MT Bold" size="27.0" />
+                    </font>
+                </Text>
+                <Button fx:id="enterlegs" layoutX="463.0" layoutY="9.0" mnemonicParsing="false" onAction="#enterlegs" prefHeight="56.0" prefWidth="140.0" style="-fx-background-radius: 50; -fx-background-color: #977ff0;" text="ENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Button>
+                <Text fill="#6862d0" layoutX="318.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 minutes">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="42.0" layoutY="261.0" prefHeight="73.0" prefWidth="636.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+            <children>
+                <AnchorPane layoutX="296.0" layoutY="17.0" opacity="0.6" prefHeight="42.0" prefWidth="148.0" style="-fx-background-color: fff75c; -fx-background-radius: 50;" />
+                <Text fill="#fff75c" layoutX="79.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ARMS">
+                    <font>
+                        <Font name="Arial Rounded MT Bold" size="27.0" />
+                    </font>
+                </Text>
+                <Button fx:id="enterarms" layoutX="463.0" layoutY="9.0" mnemonicParsing="false" onAction="#enterarms" prefHeight="56.0" prefWidth="140.0" style="-fx-background-radius: 50; -fx-background-color: #977ff0;" text="ENTER" textFill="WHITE">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Button>
+                <Text fill="#6862d0" layoutX="318.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 minutes">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
