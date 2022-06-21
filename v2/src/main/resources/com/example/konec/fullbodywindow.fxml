@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #c9e4ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.konec.FullbodywindowCon">
+   <children>
+      <AnchorPane prefHeight="48.0" prefWidth="720.0" style="-fx-background-color: #8498c2;">
+         <children>
+            <Text fill="#ff7474" layoutX="208.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIVE MINUTES" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="48.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="38.0" layoutY="131.0" prefHeight="73.0" prefWidth="185.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+         <children>
+            <Text fill="#fff75c" layoutX="25.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 exercise">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="268.0" layoutY="131.0" prefHeight="73.0" prefWidth="185.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+         <children>
+            <Text fill="#fff75c" layoutX="25.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 exercise" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="490.0" layoutY="131.0" prefHeight="73.0" prefWidth="185.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+         <children>
+            <Text fill="#fff75c" layoutX="25.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 exercise">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="#fff75c" layoutX="209.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FULL-BODY TRAINING" textAlignment="CENTER" wrappingWidth="302.03125">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="goback" layoutX="28.0" layoutY="424.0" mnemonicParsing="false" onAction="#goback" prefHeight="32.0" prefWidth="94.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 50;" text="Back" textFill="#fff75c">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="28.0" layoutY="214.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #696969; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="194.0" fitWidth="185.0" layoutX="8.0" layoutY="3.0">
+               <image>
+                  <Image url="@../../../../java/com/example/konec/needfiles/гифки/TQBE(1).gif" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="261.0" layoutY="214.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #696969; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="194.0" fitWidth="185.0" layoutX="8.0" layoutY="3.0">
+               <image>
+                  <Image url="@../../../../java/com/example/konec/needfiles/гифки/full-2.gif" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="490.0" layoutY="214.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #696969; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="194.0" fitWidth="185.0" layoutX="8.0" layoutY="3.0">
+               <image>
+                  <Image url="@../../../../java/com/example/konec/needfiles/гифки/full-3.gif" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
