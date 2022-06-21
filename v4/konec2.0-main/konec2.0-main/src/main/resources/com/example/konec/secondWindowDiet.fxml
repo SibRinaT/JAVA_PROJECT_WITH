@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.konec.SecondWindowDietController">
+   <children>
+      <AnchorPane layoutY="3.0" prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #c9e4ff;">
+         <children>
+            <AnchorPane layoutY="-8.0" prefHeight="64.0" prefWidth="720.0" style="-fx-background-color: #8498c2;">
+               <children>
+                  <Text fill="#ff7474" layoutX="184.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SECOND DAY" textAlignment="CENTER">
+                     <font>
+                        <Font name="Franklin Gothic Medium" size="62.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Text fill="#2ecfda" layoutX="28.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BREAKFAST" textAlignment="CENTER">
+               <font>
+                  <Font name="Stay Pixel Regular" size="53.0" />
+               </font>
+            </Text>
+            <Text fill="#68c94f" layoutX="537.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DINNER" textAlignment="CENTER">
+               <font>
+                  <Font name="Stay Pixel Regular" size="53.0" />
+               </font>
+            </Text>
+            <Text fill="#ff7e34" layoutX="311.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LUNCH" textAlignment="CENTER">
+               <font>
+                  <Font name="Stay Pixel Regular" size="53.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="410.0" fitWidth="200.0" layoutX="154.0" layoutY="70.0" opacity="0.5">
+               <image>
+                  <Image url="@../../../../../../../../../../../../javaprojects/konec3.0/konec2.0-main/konec2.0-main/src/main/resources/com/example/konec/pngFiles/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="410.0" fitWidth="200.0" layoutX="394.0" layoutY="70.0" opacity="0.5">
+               <image>
+                  <Image url="@../../../../../../../../../../../../javaprojects/konec3.0/konec2.0-main/konec2.0-main/src/main/resources/com/example/konec/pngFiles/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="566.0" layoutY="149.0">
+               <image>
+                  <Image url="@../../../../../../../../../../../../javaprojects/konec3.0/konec2.0-main/konec2.0-main/src/main/resources/com/example/konec/pngFiles/free-icon-salad-1205083.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="96.0" layoutY="149.0">
+               <image>
+                  <Image url="@../../../../../../../../../../../../javaprojects/konec3.0/konec2.0-main/konec2.0-main/src/main/resources/com/example/konec/pngFiles/free-icon-omelette-1205067.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="331.0" layoutY="149.0">
+               <image>
+                  <Image url="@../../../../../../../../../../../../javaprojects/konec3.0/konec2.0-main/konec2.0-main/src/main/resources/com/example/konec/pngFiles/free-icon-soup-1205091.png" />
+               </image>
+            </ImageView>
+            <Text fill="#2ecfda" layoutX="61.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="fried eggs with bacon, coffee" textAlignment="CENTER" wrappingWidth="138.48899841308594">
+               <font>
+                  <Font name="Arial Black" size="26.0" />
+               </font>
+            </Text>
+            <Text fill="#ff7e34" layoutX="255.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="celery soup, pork steak, cucumber salad, tomato and cabbage salad" textAlignment="CENTER" wrappingWidth="233.814453125">
+               <font>
+                  <Font name="Arial Black" size="26.0" />
+               </font>
+            </Text>
+            <Text fill="#68c94f" layoutX="527.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="boiled chicken fillet, sauerkraut" textAlignment="CENTER" wrappingWidth="158.814453125">
+               <font>
+                  <Font name="Arial Black" size="26.0" />
+               </font>
+            </Text>
+            <Button fx:id="goback_seconddayDiet" layoutX="14.0" layoutY="434.0" mnemonicParsing="false" onAction="#goback_seconddayDiet" prefHeight="32.0" prefWidth="94.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 50;" text="Back" textFill="#fff75c">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

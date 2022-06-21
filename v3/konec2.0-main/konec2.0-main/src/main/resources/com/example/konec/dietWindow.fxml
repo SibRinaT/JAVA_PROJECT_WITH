@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #c9e4ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.konec.DietController">
+   <children>
+      <AnchorPane prefHeight="64.0" prefWidth="720.0" style="-fx-background-color: #8498c2;">
+         <children>
+            <Text fill="#ff7474" layoutX="208.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIVE MINUTES" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="48.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="562.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngFiles/8473427.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fill="#ffea00" layoutX="200.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DIET FOR 7 DAYS">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="14.0" layoutY="179.0" prefHeight="64.0" prefWidth="156.0" style="-fx-background-color: #ffbf00; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="first_dietButton" layoutX="8.0" layoutY="4.0" mnemonicParsing="false" onAction="#first_dietButton" prefHeight="56.0" prefWidth="138.0" style="-fx-background-color: #ffbf00;" />
+            <Text fill="#6862d0" layoutX="64.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font name="Arial Black" size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="299.0" layoutY="179.0" prefHeight="64.0" prefWidth="156.0" style="-fx-background-color: #ffbf00; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="second_dietButton" layoutX="9.0" layoutY="4.0" mnemonicParsing="false" onAction="#second_dietButton" prefHeight="56.0" prefWidth="138.0" style="-fx-background-color: #ffbf00;" />
+            <AnchorPane layoutX="14.0" layoutY="5.0" prefHeight="56.0" prefWidth="129.0" style="-fx-background-color: #ffe045; -fx-background-radius: 15;" />
+            <Text fill="#6862d0" layoutX="63.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+               <font>
+                  <Font name="Arial Black" size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="555.0" layoutY="179.0" prefHeight="64.0" prefWidth="156.0" style="-fx-background-color: #ffbf00; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="thierst_dietButton" layoutX="9.0" layoutY="4.0" mnemonicParsing="false" onAction="#thierst_dietButton" prefHeight="56.0" prefWidth="138.0" style="-fx-background-color: #ffbf00;" />
+            <AnchorPane layoutX="14.0" layoutY="4.0" prefHeight="56.0" prefWidth="129.0" style="-fx-background-color: #ffe045; -fx-background-radius: 15;" />
+            <Text fill="#6862d0" layoutX="64.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font name="Arial Black" size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="331.0" prefHeight="68.0" prefWidth="156.0" style="-fx-background-color: #ffbf00; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="fourst_dietButton" layoutX="8.0" layoutY="4.0" mnemonicParsing="false" onAction="#fourst_dietButton" prefHeight="50.0" prefWidth="138.0" style="-fx-background-color: #ffbf00;" />
+            <AnchorPane layoutX="13.0" layoutY="6.0" prefHeight="56.0" prefWidth="129.0" style="-fx-background-color: #ffe045; -fx-background-radius: 15;" />
+            <Text fill="#6862d0" layoutX="63.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font name="Arial Black" size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="204.0" layoutY="331.0" prefHeight="68.0" prefWidth="156.0" style="-fx-background-color: #ffbf00; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="fivest_dietButton" layoutX="19.0" layoutY="2.0" mnemonicParsing="false" onAction="#fivest_dietButton" prefHeight="56.0" prefWidth="119.0" style="-fx-background-color: #ffbf00;" />
+            <AnchorPane layoutX="14.0" layoutY="6.0" prefHeight="56.0" prefWidth="129.0" style="-fx-background-color: #ffe045; -fx-background-radius: 15;" />
+            <Text fill="#6862d0" layoutX="64.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+               <font>
+                  <Font name="Arial Black" size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="sixst_dietButton" layoutX="377.0" layoutY="331.0" prefHeight="68.0" prefWidth="156.0" style="-fx-background-color: #ffbf00; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="sixest_dietButton" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" onAction="#sixest_dietButton" prefHeight="59.0" prefWidth="129.0" style="-fx-background-color: #ffbf00;" />
+            <AnchorPane layoutX="14.0" layoutY="6.0" prefHeight="56.0" prefWidth="129.0" style="-fx-background-color: #ffe045; -fx-background-radius: 15;" />
+            <Text fill="#6862d0" layoutX="64.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+               <font>
+                  <Font name="Arial Black" size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="550.0" layoutY="331.0" prefHeight="68.0" prefWidth="156.0" style="-fx-background-color: #ffbf00; -fx-background-radius: 15;">
+         <children>
+            <Button fx:id="sevenest_dietButton1" layoutX="21.0" layoutY="4.0" mnemonicParsing="false" onAction="#sevenest_dietButton" prefHeight="56.0" prefWidth="119.0" style="-fx-background-color: #ffbf00;" />
+            <AnchorPane layoutX="14.0" layoutY="6.0" prefHeight="56.0" prefWidth="129.0" style="-fx-background-color: #ffe045; -fx-background-radius: 15;" />
+            <Text fill="#6862d0" layoutX="66.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+               <font>
+                  <Font name="Arial Black" size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="56.0" fitWidth="50.0" layoutX="525.0" layoutY="75.0">
+         <image>
+            <Image url="@pngFiles/food.png.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

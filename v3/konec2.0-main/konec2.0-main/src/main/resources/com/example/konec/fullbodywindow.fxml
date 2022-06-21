@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #c9e4ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.konec.FullbodywindowCon">
+   <children>
+      <AnchorPane layoutX="174.0" layoutY="420.0" prefHeight="42.0" prefWidth="475.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+         <children>
+            <Text fill="#fff75c" layoutX="25.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="27.0" />
+               </font>
+            </Text>
+            <Text fill="#1717ae" layoutX="20.0" layoutY="30.0" opacity="0.56" strokeType="OUTSIDE" strokeWidth="0.0" text="REST BETWEEN EXERCISES 40 SECONDS">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="48.0" prefWidth="720.0" style="-fx-background-color: #8498c2;">
+         <children>
+            <Text fill="#ff7474" layoutX="188.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIVE MINUTES" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="48.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="543.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngFiles/8473427.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="41.0" layoutY="122.0" prefHeight="42.0" prefWidth="185.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+         <children>
+            <Text fill="#fff75c" layoutX="25.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 exercise">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="#726a6a" layoutX="209.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FULL-BODY TRAINING" textAlignment="CENTER" wrappingWidth="302.03125">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="goback" layoutX="28.0" layoutY="424.0" mnemonicParsing="false" onAction="#goback" prefHeight="32.0" prefWidth="94.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 50;" text="Back" textFill="#fff75c">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="148.0" fitWidth="172.0" layoutX="282.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gifFiles/scdsdc.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="157.0" layoutX="55.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gifFiles/rweger.gif" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="268.0" layoutY="122.0" prefHeight="42.0" prefWidth="185.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+         <children>
+            <Text fill="#fff75c" layoutX="25.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 exercise">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="490.0" layoutY="122.0" prefHeight="42.0" prefWidth="185.0" style="-fx-background-color: #b0dba0; -fx-background-radius: 30;">
+         <children>
+            <Text fill="#fff75c" layoutX="25.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 exercise">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="#145ff5" layoutX="75.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="45 seconds">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#145ff5" layoutX="302.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30 seconds">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#145ff5" layoutX="524.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="35 seconds">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="163.0" fitWidth="157.0" layoutX="504.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gifFiles/hugrinlrth.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
